@@ -1,0 +1,7 @@
+@import url(about-us_title.css);
+@import url(about-us_description.css);
+
+.about-us{
+    padding: 5rem;
+    text-align: center;
+}

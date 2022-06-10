@@ -1,0 +1,11 @@
+.about__title {
+  color: #8d0606;
+  font-family: Pacifico, cursive;
+  font-size: 3.1875rem;
+}
+
+@media screen and (max-width: 768px) {
+  .about__title {
+    font-size: 2rem;
+  }
+}

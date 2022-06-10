@@ -1,0 +1,13 @@
+@import url(./about-description.css);
+@import url(./about-title.css);
+
+.about {
+  padding: 2.5rem;
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 1rem;
+  }
+}

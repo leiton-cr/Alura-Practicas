@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import url(./header/header.css);
+@import url(./footer/footer.css);
+@import url(./banner/banner.css);
+@import url(./about/about.css);
+@import url(./recipes/recipes.css);
+@import url(./about-us/about-us.css);
+@import url(./people/people.css);

@@ -1,0 +1,20 @@
+@import url(recipe.css);
+@import url(recipe_content.css);
+@import url(recipe_title.css);
+@import url(recipe_description.css);
+@import url(recipe_button.css);
+@import url(recipe_image.css);
+
+.recipes {
+  background-color: #e9e8e8;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5rem;
+}
+
+@media screen and (max-width: 768px) {
+  .recipes {
+    padding: 2.5rem;
+  }
+}
+

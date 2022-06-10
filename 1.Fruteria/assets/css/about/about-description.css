@@ -1,0 +1,11 @@
+.about__description {
+  color: #595959;
+  font-size: 1.75rem;
+  font-weight: 100;
+}
+
+@media screen and (max-width: 768px) {
+  .about__description {
+    font-size: 1.25rem;
+  }
+}

@@ -1,0 +1,19 @@
+.person__image{
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+}
+
+.person__image--roberta{
+    background-image: url(../../img/personas/roberta.jpg);
+}
+
+.person__image--marcela{
+    background-image: url(../../img/personas/marcela.jpg);
+}
+
+.person__image--andrea{
+    background-image: url(../../img/personas/andrea.jpg);
+}
