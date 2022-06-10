@@ -1,0 +1,98 @@
+.populars{
+    padding: 3rem 2rem;
+}
+
+.populars__card{
+    background-color: #fdfdfd;
+    display: grid;
+    grid-template-areas:
+    "card-image"
+    "card-base";
+    grid-template-columns: 100%;
+    grid-template-rows: 173px auto;
+    margin-right: 1rem;
+    width: calc(20% - 1rem);
+}
+
+.populars__content{
+    display: flex;
+   
+    flex-wrap: wrap;
+    padding: 1rem .2rem;
+}
+
+.populars__card___image{
+    grid-area: card-image;
+    width: 100%;
+    height: 100%;
+}
+
+.populars__card___base{
+    display: grid;
+    grid-area: card-base;
+    gap: .5rem 0;
+    grid-template-areas:
+    "card-header"
+    "card-description";
+    grid-template-rows:50px auto;
+    padding: .75rem;
+}
+
+.populars__card___description{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem 0;
+    grid-area: card-description;
+    color: #333;
+    line-height: 1.5;
+    margin: 1rem 0;
+}
+
+.populars__card___title{
+    color: #333;
+    font-size: 1.5rem;
+}
+
+.populars__card___data{
+    color: #808080;
+    font-size: .8rem;
+}
+
+.populars__title{
+    font-weight: 500;
+}
+
+.populars__icon{
+    margin-right: 0.25rem;
+}
+
+.populars__card___header{
+    border-bottom: 1px solid #dcdcdc;
+    display: flex;
+    justify-content: space-between;
+}
+
+.populars__button{
+    background-color: transparent;
+    border: none;
+    color: #3333
+}
+
+.populars__button:last-child{
+    margin-right: 0;
+}
+
+
+
+@media screen and (max-width:600px) {
+
+    .populars__card{
+        margin: 1rem 0;
+        width: 100%;
+    }
+
+    .populars__content{
+        flex-direction: column;
+    }
+
+}
