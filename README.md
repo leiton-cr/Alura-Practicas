@@ -9,3 +9,6 @@ https://leiton-cr.github.io/Alura-Practicas/2.Store/
 
 3. Html, CSS, CSS Flex Layout
 https://leiton-cr.github.io/Alura-Practicas/3.MiniAlura/
+
+3. Html, CSS, DOM, Local Storage
+https://leiton-cr.github.io/Alura-Practicas/4.CalendarioTODO/
